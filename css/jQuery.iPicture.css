@@ -1,0 +1,331 @@
+#iPicture{
+  font-family: 'Lucida Sans Unicode','Lucida Grande',Tahoma,Arial,san-serif;
+    font-size: 62.5%;
+    color: #000000;
+}
+.more32 {
+	height: 32px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    width: 225px;
+}
+
+.more32 span {
+	font: bold 13px Lucida Grande, Arial, sans-serif;
+	text-align:center;
+	padding: 8px 0 0 0;
+	position: absolute;
+	width: 160px;
+}
+.
+.more32 a {
+	height: 100%;
+	display: inline-block;
+	cursor: pointer;
+}
+.more32 input{
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    float: right;
+    height: 20px;
+    margin-right: 7px;
+    margin-top: 5px;
+    width: 100%;
+    background: transparent;
+    font: bold 13px Lucida Grande,Arial,sans-serif;
+}
+
+.more32 p{
+    height: 16px;
+    margin: 0 0 0 148px;
+    padding: 0;
+    position: relative;
+    width: 16px;
+    cursor:pointer;
+}
+.more32 .pDelete{
+  background: url("../images/cross.png") no-repeat scroll right center transparent;
+  position: absolute;
+  right: 0;
+}
+.more32 .pInvert{
+  background: url("../images/refresh.png") no-repeat scroll right center transparent;
+}
+.more32 div{
+  float:right;
+}
+.moregreen- {
+	padding-top: 2px;
+}
+
+.top {
+	display: none;
+}
+
+.left {
+	display: none;
+}
+
+.ltr-slide {
+	width:32px;
+	padding: 0;
+}
+.bgblack{
+  background: url("../images/bg.png") repeat scroll 0 0 transparent;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+}
+.bgblack span{
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #000000;
+}
+.bgblack input{
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #000000;
+  border: 1px solid #FFFFFF;
+}
+.bgwhite{
+  background: url("../images/bg-white.png") repeat scroll 0 0 transparent;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+}
+.bgwhite span{
+  color: #000000;
+  text-shadow: 1px 1px 0 #ffffff;
+}
+.bgwhite input{
+  border: 1px solid #000000;
+  color: #000000;
+  text-shadow: 1px 1px 0 #ffffff;
+}
+.noAnimation input{
+  background: url("../images/bg-white.png") repeat scroll 0 0 transparent;
+  border: 1px solid #000000;
+  color: #000000;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+	z-index:1000;
+}
+.buttonsDropp{
+	border: 1px dashed #333333;
+    position: absolute;
+    width: 550px;
+    display:none;
+    background: url("../images/bg-white.png") repeat scroll 0 0 transparent;
+}
+.buttonsDropp li {
+    cursor: pointer;
+    height: 36px;
+    width: 32px;
+    z-index: 1;
+}
+.bgDropp{
+	border: 1px dashed #333333;
+    position: absolute;
+    display:none;
+    width: 210px;
+    /*background: url("../images/bg-white.png") repeat scroll 0 0 transparent;*/
+}
+.bgDropp li {
+    cursor: pointer;
+    height: 35px;
+    width: 200px;
+    z-index: 1;
+    margin: 0 3px 5px 3px;
+}
+.listContainer{
+  width:53px;
+  height: 35px;
+  border-radius: 0;
+}
+.listContainer li{
+  cursor:move;
+  height: 32px;
+  width: 32px;
+}
+.listContainer ul{
+  float:left;
+}
+.buttonsList{
+  float:right;
+  background: url("../images/choosebutton.png") no-repeat scroll right center transparent;
+  height: 16px;
+  width: 16px;
+  margin-top: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.bgList{
+  height: 16px;
+  width: 16px;
+  background: url("../images/color_swatch.png") no-repeat scroll right center transparent;
+  margin-right: 3px;
+  cursor: pointer;
+  float: right;
+}
+.inline{
+  margin: 0;
+}
+ul.inline{
+  padding-top: 5px;
+}
+.inline li {
+    float: left;
+}
+.buttonSave{
+    display: inline-block;
+    height: 25px;
+    vertical-align: bottom;
+    width: 100%;
+    background: none repeat scroll 0 0 transparent !important;
+    border-bottom: 1px dashed #000000;
+    border-top: 1px dashed #000000;
+    margin: 3px 0;
+    padding: 2px;
+}
+.buttonSave p{
+	display: inline;
+    margin: 0;
+   padding: 5px 0 0;
+    position: absolute;
+}
+.buttonSave input{
+	left: 45%;
+    position: absolute;
+}
+.imgButton{
+  width: 32px;
+  height: 32px;
+  float: left!important;
+}
+.imgButtonDrag{
+  cursor: move;
+  width: 32px;
+  height: 32px;
+  float: left!important;
+}
+.noborder{
+  border: 0;
+  border-radius: 0;
+}
+.inputDiv{
+  width:80%
+}
+/* ###################################################################
+
+                          buttons classes
+                          
+   ################################################################### */
+   
+.moregold{
+  background: url("../images/moregold/button.png") no-repeat scroll left center transparent;
+}
+.moregrey{
+  background: url("../images/moregrey/button.png") no-repeat scroll left center transparent;
+} 
+.moreblack{
+  background: url("../images/moreblack/button.png") no-repeat scroll left center transparent;
+}
+.moredarkblue{
+  background: url("../images/moredarkblue/button.png") no-repeat scroll left center transparent;
+}
+.moreblue{
+  background: url("../images/moreblue/button.png") no-repeat scroll left center transparent;
+} 
+.morelightblue{
+  background: url("../images/morelightblue/button.png") no-repeat scroll left center transparent;
+}
+.morelightblue2{
+  background: url("../images/morelightblue2/button.png") no-repeat scroll left center transparent;
+}
+.morewatergreen{
+  background: url("../images/morewatergreen/button.png") no-repeat scroll left center transparent;
+} 
+.morelightgreen{
+  background: url("../images/morelightgreen/button.png") no-repeat scroll left center transparent;
+} 
+.moregreen{
+  background: url("../images/moregreen/button.png") no-repeat scroll left center transparent;
+}
+.moreyellow{
+  background: url("../images/moreyellow/button.png") no-repeat scroll left center transparent;
+} 
+.moreorange{
+  background: url("../images/moreorange/button.png") no-repeat scroll left center transparent;
+} 
+.morered{
+  background: url("../images/morered/button.png") no-repeat scroll left center transparent;
+}
+.morepurple{
+  background: url("../images/morepurple/button.png") no-repeat scroll left center transparent;
+} 
+.moreviolet{
+  background: url("../images/moreviolet/button.png") no-repeat scroll left center transparent;
+} 
+.morelightviolet{
+  background: url("../images/morelightviolet/button.png") no-repeat scroll left center transparent;
+}
+.morefucsia{
+  background: url("../images/morefucsia/button.png") no-repeat scroll left center transparent;
+}
+.beadgold{
+  background: url("../images/beadgold/button.png") no-repeat scroll left center transparent;
+}
+.beadgrey{
+  background: url("../images/beadgrey/button.png") no-repeat scroll left center transparent;
+} 
+.beadblack{
+  background: url("../images/beadblack/button.png") no-repeat scroll left center transparent;
+}
+.beaddarkblue{
+  background: url("../images/beaddarkblue/button.png") no-repeat scroll left center transparent;
+}
+.beadblue{
+  background: url("../images/beadblue/button.png") no-repeat scroll left center transparent;
+} 
+.beadlightblue{
+  background: url("../images/beadlightblue/button.png") no-repeat scroll left center transparent;
+}
+.beadlightblue2{
+  background: url("../images/beadlightblue2/button.png") no-repeat scroll left center transparent;
+}
+.beadwatergreen{
+  background: url("../images/beadwatergreen/button.png") no-repeat scroll left center transparent;
+} 
+.beadlightgreen{
+  background: url("../images/beadlightgreen/button.png") no-repeat scroll left center transparent;
+} 
+.beadgreen{
+  background: url("../images/beadgreen/button.png") no-repeat scroll left center transparent;
+}
+.beadyellow{
+  background: url("../images/beadyellow/button.png") no-repeat scroll left center transparent;
+} 
+.beadorange{
+  background: url("../images/beadorange/button.png") no-repeat scroll left center transparent;
+} 
+.beadred{
+  background: url("../images/beadred/button.png") no-repeat scroll left center transparent;
+}
+.beadpurple{
+  background: url("../images/beadpurple/button.png") no-repeat scroll left center transparent;
+} 
+.beadviolet{
+  background: url("../images/beadviolet/button.png") no-repeat scroll left center transparent;
+} 
+.beadlightviolet{
+  background: url("../images/beadlightviolet/button.png") no-repeat scroll left center transparent;
+}
+.beadfucsia{
+  background: url("../images/beadfucsia/button.png") no-repeat scroll left center transparent;
+}
