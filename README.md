@@ -1,4 +1,4 @@
-#jQuery iPicture
+# jQuery iPicture
 
 iPicture is a jQuery Plugin* to create interactive pictures with extra descriptions.
 Easy to configure, customize, integrate.
@@ -9,9 +9,9 @@ Origin work made by Sara D'Alia (@sara-dalia), community repo owned by Vinci Won
 
 *note from repo owner: actually this is a jQuery UI widget
 
-##Dependency
+## Dependency
 - jQuery
 - jQuery UI 1.8.x (widget, draggable, dropable)
 
-##License
+## License
 MIT License or GNU General Public License (GPL) Version 2 specifications
